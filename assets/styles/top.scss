@@ -1,3 +1,5 @@
+@import "./global.scss";
+
 .top-header {
   display: flex;
   justify-content: end;
@@ -15,7 +17,7 @@
             }
           }
           a {
-            font-family: Oradano-mincho-GSRR;
+            @include fontOradano;
             font-weight: normal;
             font-size: 16px;
             color: #2d2d2d;
@@ -71,7 +73,7 @@
       max-width: 100%;
     }
     &__title {
-      font-family: Oradano-mincho-GSRR;
+      @include fontOradano;
       font-weight: normal;
       font-size: 20px;
       letter-spacing: 0.2em;

@@ -1,3 +1,5 @@
+@import "./global.scss";
+
 .blogs {
   &__inner {
     max-width: 1200px;
@@ -16,7 +18,7 @@
           width: 410px;
           padding-top: 48px;
           h1 {
-            font-family: NotoSansJP-Bold;
+            @include fontRegular;
             font-weight: bold;
             font-size: 16px;
             color: #525252;
@@ -31,7 +33,7 @@
             h4,
             h5,
             h6 {
-              font-family: NotoSansJP-Regular;
+              @include fontRegular;
               line-height: 2rem;
               text-align: left;
               color: #525252;
@@ -60,7 +62,7 @@
             }
           }
           &__date {
-            font-family: NotoSansJP-Regular;
+            @include fontRegular;
             font-weight: normal;
             font-size: 13px;
             text-align: left;

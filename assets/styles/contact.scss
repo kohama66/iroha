@@ -1,3 +1,5 @@
+@import "./global.scss";
+
 .contact {
   flex: 1;
   &__inner {
@@ -6,7 +8,7 @@
     &__main_content {
       padding-top: 130px;
       h2 {
-        font-family: NotoSansJP-Bold;
+        @include fontRegular;
         font-weight: bold;
         font-size: 16px;
         text-align: center;
@@ -14,7 +16,7 @@
         margin-bottom: 26px;
       }
       p {
-        font-family: NotoSansJP-Regular;
+        @include fontRegular;
         font-weight: normal;
         font-size: 15px;
         line-height: 32px;
@@ -27,7 +29,7 @@
           display: flex;
           margin-bottom: 16px;
           label {
-            font-family: NotoSansJP-Bold;
+            @include fontRegular;
             font-size: 16px;
             text-align: left;
             color: #525252;

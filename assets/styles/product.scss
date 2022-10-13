@@ -1,3 +1,5 @@
+@import "./global.scss";
+
 .product_detail {
   flex: 1;
   display: flex;
@@ -23,7 +25,7 @@
           width: 455px;
           padding-top: 115px;
           &__title {
-            font-family: NotoSansJP-Bold;
+            @include fontRegular;
             font-weight: bold;
             font-size: 16px;
             text-align: left;
@@ -37,7 +39,7 @@
           h5,
           h6,
           p {
-            font-family: NotoSansJP-Regular;
+            @include fontRegular;
             line-height: 2rem;
             color: #525252;
             margin-bottom: 18px;
