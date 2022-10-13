@@ -1,0 +1,124 @@
+.contact {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.contact__inner {
+  max-width: 880px;
+  margin: 0 auto;
+}
+
+.contact__inner__main_content {
+  padding-top: 130px;
+}
+
+.contact__inner__main_content h2 {
+  font-family: NotoSansJP-Bold;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  color: #525252;
+  margin-bottom: 26px;
+}
+
+.contact__inner__main_content p {
+  font-family: NotoSansJP-Regular;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 32px;
+  text-align: center;
+  color: #525252;
+}
+
+.contact__inner__main_content__form {
+  margin: 117px 0 68px;
+}
+
+.contact__inner__main_content__form__input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.contact__inner__main_content__form__input label {
+  font-family: NotoSansJP-Bold;
+  font-size: 16px;
+  text-align: left;
+  color: #525252;
+  width: 200px;
+  display: block;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+.contact__inner__main_content__form__input label span {
+  color: #8c8c8c;
+  font-weight: normal;
+}
+
+.contact__inner__main_content__form__input .wpcf7-form-control-wrap {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.contact__inner__main_content__form__input .wpcf7-form-control-wrap input,
+.contact__inner__main_content__form__input .wpcf7-form-control-wrap textarea {
+  background-color: #f1f1f1;
+  padding: 21px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.contact__inner__main_content__form__input .wpcf7-form-control-wrap textarea {
+  min-height: 191px;
+  resize: none;
+}
+
+.contact__inner__main_content__form button[type="submit"] {
+  text-align: center;
+  color: #fff;
+  width: 230px;
+  height: 55px;
+  background: #2d2d2d;
+  display: block;
+  margin: 53px auto 0;
+}
+
+@media screen and (max-width: 1199px) {
+  .contact__inner {
+    padding: 0 10%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .contact__inner {
+    padding: 0 10%;
+  }
+  .contact__inner__main_content {
+    padding-top: 130px;
+  }
+  .contact__inner__main_content__form {
+    margin: 50px 0 50px;
+  }
+  .contact__inner__main_content__form__input {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 12px;
+  }
+  .contact__inner__main_content__form__input label {
+    margin-bottom: 8px;
+    width: 100%;
+  }
+  .contact__inner__main_content__form__input input,
+  .contact__inner__main_content__form__input textarea {
+    padding: 14px;
+  }
+}

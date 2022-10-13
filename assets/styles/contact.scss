@@ -1,0 +1,107 @@
+.contact {
+  flex: 1;
+  &__inner {
+    max-width: 880px;
+    margin: 0 auto;
+    &__main_content {
+      padding-top: 130px;
+      h2 {
+        font-family: NotoSansJP-Bold;
+        font-weight: bold;
+        font-size: 16px;
+        text-align: center;
+        color: #525252;
+        margin-bottom: 26px;
+      }
+      p {
+        font-family: NotoSansJP-Regular;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 32px;
+        text-align: center;
+        color: #525252;
+      }
+      &__form {
+        margin: 117px 0 68px;
+        &__input {
+          display: flex;
+          margin-bottom: 16px;
+          label {
+            font-family: NotoSansJP-Bold;
+            font-size: 16px;
+            text-align: left;
+            color: #525252;
+            width: 200px;
+            display: block;
+            padding-top: 20px;
+            font-weight: bold;
+            span {
+              color: #8c8c8c;
+              font-weight: normal;
+            }
+          }
+          .wpcf7-form-control-wrap {
+            flex-grow: 1;
+            input,
+            textarea {
+              background-color: #f1f1f1;
+              padding: 21px;
+              flex-grow: 1;
+              width: 100%;
+              margin-bottom: 5px;
+            }
+
+            textarea {
+              min-height: 191px;
+              resize: none;
+            }
+          }
+        }
+
+        button[type="submit"] {
+          text-align: center;
+          color: #fff;
+          width: 230px;
+          height: 55px;
+          background: #2d2d2d;
+          display: block;
+          margin: 53px auto 0;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .contact {
+    &__inner {
+      padding: 0 10%;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .contact {
+    &__inner {
+      padding: 0 10%;
+      &__main_content {
+        padding-top: 130px;
+        &__form {
+          margin: 50px 0 50px;
+          &__input {
+            flex-direction: column;
+            margin-bottom: 12px;
+            label {
+              margin-bottom: 8px;
+              width: 100%;
+            }
+            input,
+            textarea {
+              padding: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

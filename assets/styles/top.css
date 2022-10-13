@@ -1,0 +1,116 @@
+.top-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  padding: 34px 94px 0;
+}
+
+.top-header__wrapper__pagelinks {
+  margin-bottom: 24px;
+}
+
+.top-header__wrapper__pagelinks__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.top-header__wrapper__pagelinks__list__item {
+  list-style: none;
+}
+
+.top-header__wrapper__pagelinks__list__item:not(:last-child) a {
+  margin-right: 35px;
+}
+
+.top-header__wrapper__pagelinks__list__item a {
+  font-family: Oradano-mincho-GSRR;
+  font-weight: normal;
+  font-size: 16px;
+  color: #2d2d2d;
+  text-decoration: none;
+}
+
+.top-header__wrapper__sns-icons__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.top-header__wrapper__sns-icons__list__item {
+  width: 36px;
+  height: 36px;
+}
+
+.top-header__wrapper__sns-icons__list__item:not(:last-child) {
+  margin-right: 19px;
+}
+
+.top-header__wrapper__sns-icons__list__item a {
+  background-color: #000;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top-header__wrapper__sns-icons__list__item:nth-of-type(2) a, .top-header__wrapper__sns-icons__list__item:nth-of-type(3) a {
+  background-color: #fff;
+}
+
+.top-header__wrapper__sns-icons__list__item:nth-of-type(2) a img, .top-header__wrapper__sns-icons__list__item:nth-of-type(3) a img {
+  width: 100%;
+  height: 100%;
+}
+
+.top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.top__main__image {
+  margin-bottom: 47px;
+  display: block;
+  max-width: 100%;
+}
+
+.top__main__title {
+  font-family: Oradano-mincho-GSRR;
+  font-weight: normal;
+  font-size: 20px;
+  letter-spacing: 0.2em;
+  color: #2d2d2d;
+  text-align: center;
+}
+
+@media screen and (max-width: 784px) {
+  .top-header {
+    padding: 20px 20px 0;
+    margin: 0 auto;
+  }
+  .top__main {
+    padding: 0 10%;
+    margin-bottom: 20px;
+  }
+}

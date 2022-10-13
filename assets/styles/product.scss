@@ -1,0 +1,126 @@
+.product_detail {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  &__inner {
+    width: 1060px;
+    margin: 0 auto;
+    &__main_content {
+      &__item {
+        display: flex;
+        justify-content: space-between;
+        padding: 75px 0;
+        &__image {
+          width: 490px;
+          height: 490px;
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+        &__detail {
+          width: 455px;
+          padding-top: 115px;
+          &__title {
+            font-family: NotoSansJP-Bold;
+            font-weight: bold;
+            font-size: 16px;
+            text-align: left;
+            color: #525252;
+            margin-bottom: 28px;
+          }
+          h1,
+          h2,
+          h3,
+          h4,
+          h5,
+          h6,
+          p {
+            font-family: NotoSansJP-Regular;
+            line-height: 2rem;
+            color: #525252;
+            margin-bottom: 18px;
+          }
+          h1 {
+            font-size: 26px;
+          }
+          h2 {
+            font-size: 24px;
+          }
+          h3 {
+            font-size: 22px;
+          }
+          h4 {
+            font-size: 20px;
+          }
+          h5 {
+            font-size: 18px;
+          }
+          h6 {
+            font-size: 16px;
+          }
+          p {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .product_detail {
+    &__inner {
+      width: 100%;
+      padding: 0 10% 100px;
+      &__main_content {
+        &__image {
+          width: 280px;
+          height: 280px;
+        }
+        &__detail {
+          padding-top: 10px;
+          width: 300px;
+          h2 {
+            margin-bottom: 20px;
+          }
+          p {
+            font-size: 13px;
+            line-height: 28px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .product_detail {
+    &__inner {
+      padding: 0 10% 50px;
+      &__main_content {
+        &__item {
+          flex-direction: column;
+          &__image {
+            width: 100%;
+            height: auto;
+            aspect-ratio: 1/1;
+            margin-bottom: 40px;
+          }
+          &__detail {
+            padding-top: 10px;
+            width: 100%;
+            h2 {
+              margin-bottom: 20px;
+            }
+            p {
+              font-size: 13px;
+              line-height: 28px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
