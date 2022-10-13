@@ -100,8 +100,7 @@
   height: 463px;
 }
 
-.workshop__inner__info figure boder
-img {
+.workshop__inner__info figure img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
