@@ -30,7 +30,7 @@
               <a href="#"><img src="<?php echo get_template_directory_uri() ?>/assets/images/iroha-icon.svg" alt="イロハアイコン" /></a>
             </li>
             <li class="header__wrapper__sns-icons__list__item">
-              <a href="#"><img src="<?php echo get_template_directory_uri() ?>/assets/images/instagram.svg" alt="インスタアイコン" /></a>
+              <a href="#"><img src="<?php echo get_template_directory_uri() ?>/assets/images/instagram.png" alt="インスタアイコン" /></a>
             </li>
             <li class="header__wrapper__sns-icons__list__item">
               <a href="#"><img src="<?php echo get_template_directory_uri() ?>/assets/images/pinta.svg" alt="ピンタレストアイコン" /></a>
@@ -74,7 +74,7 @@
               <a href="#"><img src="<?php echo get_template_directory_uri() ?>/assets/images/iroha-icon.svg" alt="イロハアイコン" /></a>
             </li>
             <li class="header__sp-wrapper__menus__sns-icons__list__item">
-              <a href="#"><img src="<?php echo get_template_directory_uri() ?>/assets/images/instagram.svg" alt="インスタアイコン" /></a>
+              <a href="#"><img src="<?php echo get_template_directory_uri() ?>/assets/images/instagram.png" alt="インスタアイコン" /></a>
             </li>
             <li class="header__sp-wrapper__menus__sns-icons__list__item">
               <a href="#"><img src="<?php echo get_template_directory_uri() ?>/assets/images/pinta.svg" alt="ピンタレストアイコン" /></a>
