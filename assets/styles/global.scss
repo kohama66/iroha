@@ -18,7 +18,7 @@ body {
   min-height: 100vh;
 }
 
-.footer {
+.global_footer {
   padding-bottom: 24px;
   text-align: center;
   &__copyright {
@@ -28,7 +28,6 @@ body {
     color: #808080;
     span {
       vertical-align: middle;
-      font-size: 22px;
       color: #000;
       margin-right: 4px;
     }
@@ -157,6 +156,7 @@ body {
       width: 100%;
       padding: 10% 10% 0;
       display: block;
+      z-index: 9999;
       &.is-open {
         background-color: #fff;
       }

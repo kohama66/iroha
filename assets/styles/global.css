@@ -10,21 +10,20 @@ body {
   min-height: 100vh;
 }
 
-.footer {
+.global_footer {
   padding-bottom: 24px;
   text-align: center;
 }
 
-.footer__copyright {
+.global_footer__copyright {
   font-size: 12px;
   font-family: NotoSansJP-Regular, "游ゴシック体", "Yu Gothic", "游ゴシック", "YuGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   font-weight: normal;
   color: #808080;
 }
 
-.footer__copyright span {
+.global_footer__copyright span {
   vertical-align: middle;
-  font-size: 22px;
   color: #000;
   margin-right: 4px;
 }
@@ -154,6 +153,7 @@ body {
     width: 100%;
     padding: 10% 10% 0;
     display: block;
+    z-index: 9999;
   }
   .header__sp-wrapper.is-open {
     background-color: #fff;
