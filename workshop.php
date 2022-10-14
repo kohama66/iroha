@@ -8,7 +8,7 @@ Template Name: WorkShop
     <div class="workshop__inner">
       <section class="workshop__inner__main_image">
         <figure>
-          <img src="<?php echo get_template_directory_uri() ?>/assets/images/workshop.svg" alt="工房紹介メインイメージ">
+          <img loading="eager" src="<?php echo get_template_directory_uri() ?>/assets/images/workshop.svg" alt="工房紹介メインイメージ">
         </figure>
       </section>
 
@@ -24,7 +24,7 @@ Template Name: WorkShop
       <section class="workshop__inner__info">
         <div class="workshop__inner__info__wrapper">
           <div>
-            <h2 class="workshop__inner__info__wrapper__title">
+            <!-- <h2 class="workshop__inner__info__wrapper__title">
               工房で出来ること
             </h2>
             <ul class="workshop__inner__info__wrapper__list">
@@ -36,7 +36,7 @@ Template Name: WorkShop
             </h3>
             <ul class="workshop__inner__info__wrapper__reserve">
             <li><?php echo the_field("text_2"); ?></li>
-            </ul>
+            </ul> -->
 
             <p class="workshop__inner__info__wrapper__address">
               〒613-0046 京都府久世郡久御山町大橋辺13-11<br />

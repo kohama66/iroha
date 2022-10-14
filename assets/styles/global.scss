@@ -1,16 +1,4 @@
-@mixin fontOradano {
-  font-family: Oradano-mincho-GSRR, "游明朝体", "Yu Mincho", "游明朝",
-    "YuMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro",
-    "Hiragino Mincho ProN", "HiraMinProN-W3", "HGS明朝E", "ＭＳ Ｐ明朝",
-    "MS PMincho", serif;
-}
-
-@mixin fontRegular {
-  font-family: NotoSansJP-Regular, "游ゴシック体", "Yu Gothic", "游ゴシック",
-    "YuGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",
-    "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック",
-    "MS PGothic", sans-serif;
-}
+@import "./mixin.scss";
 
 body {
   display: flex;
@@ -34,9 +22,12 @@ body {
   }
 }
 
-.header {
+.global_header {
   display: flex;
   padding: 34px 94px 0;
+  position: sticky;
+  top: 0;
+  left: 0;
   &__wrapper {
     display: flex;
     align-items: center;
@@ -93,6 +84,7 @@ body {
             justify-content: center;
             align-items: center;
           }
+          &:nth-of-type(1),
           &:nth-of-type(2),
           &:nth-of-type(3) {
             a {
@@ -114,7 +106,7 @@ body {
 }
 
 @media screen and (max-width: 1199px) {
-  .header {
+  .global_header {
     padding: 20px 20px 0;
     &__wrapper {
       &__pagelinks {
@@ -144,7 +136,7 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-  .header {
+  .global_header {
     &__wrapper {
       display: none;
     }
@@ -190,7 +182,7 @@ body {
             h1 {
               @include fontOradano;
               font-weight: normal;
-              font-size: 20px;
+              font-size: 28px;
               letter-spacing: 0.2em;
               color: #2d2d2d;
               margin-bottom: 24px;
@@ -201,12 +193,11 @@ body {
           &__list {
             &__item {
               list-style: none;
-              margin-bottom: 18px;
+              margin-bottom: 42px;
               text-align: right;
               a {
                 @include fontOradano;
-                font-weight: normal;
-                font-size: 16px;
+                font-size: 22px;
                 color: #2d2d2d;
                 text-decoration: none;
               }
@@ -216,11 +207,13 @@ body {
 
         &__sns-icons {
           &__list {
+            display: flex;
+            justify-content: space-between;
             &__item {
               width: 36px;
               height: 36px;
-              margin-bottom: 18px;
-              margin-left: auto;
+              // margin-bottom: 18px;
+              // margin-left: auto;
               a {
                 background-color: #000;
                 border-radius: 50%;
@@ -230,6 +223,7 @@ body {
                 justify-content: center;
                 align-items: center;
               }
+              &:nth-of-type(1),
               &:nth-of-type(2),
               &:nth-of-type(3) {
                 a {

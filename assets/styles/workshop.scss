@@ -1,4 +1,4 @@
-@import "./global.scss";
+@import "./mixin.scss";
 
 .workshop {
   flex: 1;
@@ -40,6 +40,7 @@
       margin: 0 auto;
       max-width: 1200px;
       justify-content: space-between;
+      align-items: center;
       &__wrapper {
         &__title {
           @include fontRegular;
@@ -66,7 +67,7 @@
         }
         &__address {
           @include fontRegular;
-          font-weight: normal;
+          font-weight: bold;
           font-size: 15px;
           line-height: 32px;
           color: #525252;
