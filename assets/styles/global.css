@@ -37,6 +37,7 @@ body {
   position: sticky;
   top: 0;
   left: 0;
+  z-index: 9999;
 }
 
 .global_header__wrapper {
@@ -157,7 +158,6 @@ body {
     width: 100%;
     padding: 10% 10% 0;
     display: block;
-    z-index: 9999;
   }
   .global_header__sp-wrapper.is-open {
     background-color: #fff;

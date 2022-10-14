@@ -28,6 +28,7 @@ body {
   position: sticky;
   top: 0;
   left: 0;
+  z-index: 9999;
   &__wrapper {
     display: flex;
     align-items: center;
@@ -148,7 +149,6 @@ body {
       width: 100%;
       padding: 10% 10% 0;
       display: block;
-      z-index: 9999;
       &.is-open {
         background-color: #fff;
       }
@@ -212,8 +212,6 @@ body {
             &__item {
               width: 36px;
               height: 36px;
-              // margin-bottom: 18px;
-              // margin-left: auto;
               a {
                 background-color: #000;
                 border-radius: 50%;
