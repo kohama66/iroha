@@ -93,19 +93,18 @@
           flex: 1;
 }
 
+.top__main {
+  text-align: center;
+}
+
 .top__main__image {
   margin-bottom: 47px;
   display: block;
   max-width: 100%;
 }
 
-.top__main__title {
-  font-family: Oradano-mincho-GSRR, "游明朝体", "Yu Mincho", "游明朝", "YuMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "Hiragino Mincho ProN", "HiraMinProN-W3", "HGS明朝E", "ＭＳ Ｐ明朝", "MS PMincho", serif;
-  font-weight: normal;
-  font-size: 20px;
-  letter-spacing: 0.2em;
-  color: #2d2d2d;
-  text-align: center;
+.top__main__logo_image {
+  width: 150px;
 }
 
 @media screen and (max-width: 784px) {

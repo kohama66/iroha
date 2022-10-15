@@ -8,7 +8,7 @@ Template Name: WorkShop
     <div class="workshop__inner">
       <section class="workshop__inner__main_image">
         <figure>
-          <img loading="eager" src="<?php echo get_template_directory_uri() ?>/assets/images/workshop.svg" alt="工房紹介メインイメージ">
+          <img loading="eager" src="<?php echo get_template_directory_uri() ?>/assets/images/workshop.png" alt="工房紹介メインイメージ">
         </figure>
       </section>
 

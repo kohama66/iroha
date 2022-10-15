@@ -48,7 +48,11 @@
           alt="メインイメージ"
           class="top__main__image"
         />
-        <h1 class="top__main__title">IROHAKAGU</h1>
+        <img
+          src="<?php echo get_template_directory_uri() ?>/assets/images/title-logo.png"
+          alt="メインイメージ"
+          class="top__main__logo_image"
+        />
       </div>
     </section>
   <?php get_footer(); ?>

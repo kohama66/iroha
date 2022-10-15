@@ -12,7 +12,10 @@
       <div class="global_header__wrapper">
         <div class="global_header__wrapper__title">
           <a href="<?php echo home_url(); ?>">
-            <h1>IROHAKAGU</h1>
+            <img
+              src="<?php echo get_template_directory_uri() ?>/assets/images/title-logo.png"
+              alt="メインイメージ"
+            />
           </a>
         </div>
         <div class="global_header__wrapper__pagelinks">
@@ -56,7 +59,10 @@
       <div class="global_header__sp-wrapper__menus">
         <div class="global_header__sp-wrapper__menus__title">
           <a href="<?php echo home_url(); ?>">
-            <h1>IROHAKAGU</h1>
+            <img
+              src="<?php echo get_template_directory_uri() ?>/assets/images/title-logo.png"
+              alt="メインイメージ"
+            />
           </a>
         </div>
         <div class="global_header__sp-wrapper__menus__pagelinks">

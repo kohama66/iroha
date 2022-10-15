@@ -35,14 +35,8 @@ body {
     width: 100%;
     &__title {
       margin-right: auto;
-      a {
-        h1 {
-          @include fontOradano;
-          font-weight: normal;
-          font-size: 20px;
-          letter-spacing: 0.2em;
-          color: #2d2d2d;
-        }
+      img {
+        width: 150px;
       }
     }
     &__pagelinks {
@@ -178,15 +172,9 @@ body {
 
         &__title {
           text-align: right;
-          a {
-            h1 {
-              @include fontOradano;
-              font-weight: normal;
-              font-size: 28px;
-              letter-spacing: 0.2em;
-              color: #2d2d2d;
-              margin-bottom: 24px;
-            }
+          margin-bottom: 42px;
+          img {
+            width: 200px;
           }
         }
         &__pagelinks {
