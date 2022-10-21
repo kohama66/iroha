@@ -24,11 +24,12 @@ body {
 
 .global_header {
   display: flex;
-  padding: 34px 94px 0;
+  padding: 34px 94px;
   position: sticky;
   top: 0;
   left: 0;
   z-index: 9999;
+  background-color: rgba(255, 255, 255, 0.5);
   &__wrapper {
     display: flex;
     align-items: center;
@@ -102,7 +103,7 @@ body {
 
 @media screen and (max-width: 1199px) {
   .global_header {
-    padding: 20px 20px 0;
+    padding: 20px 20px;
     &__wrapper {
       &__pagelinks {
         margin-right: 20px;

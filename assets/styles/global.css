@@ -32,12 +32,13 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 34px 94px 0;
+  padding: 34px 94px;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   left: 0;
   z-index: 9999;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .global_header__wrapper {
@@ -130,7 +131,7 @@ body {
 
 @media screen and (max-width: 1199px) {
   .global_header {
-    padding: 20px 20px 0;
+    padding: 20px 20px;
   }
   .global_header__wrapper__pagelinks {
     margin-right: 20px;

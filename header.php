@@ -33,13 +33,13 @@
               <a href="<?php echo the_field("iroha_url", 93); ?>" target="_blank"><img src="<?php echo get_template_directory_uri() ?>/assets/images/iroha-icon.svg" alt="イロハアイコン" /></a>
             </li>
             <li class="global_header__wrapper__sns-icons__list__item">
-              <a href="<?php echo the_field("image", 93); ?>" target="_blank"><img src="<?php echo get_template_directory_uri() ?>/assets/images/instagram.png" alt="インスタアイコン" /></a>
+              <a href="<?php echo the_field("instagram_url", 93); ?>" target="_blank"><img src="<?php echo get_template_directory_uri() ?>/assets/images/instagram.png" alt="インスタアイコン" /></a>
             </li>
             <li class="global_header__wrapper__sns-icons__list__item">
-              <a href="<?php echo the_field("image", 93); ?>" target="_blank"><img src="<?php echo get_template_directory_uri() ?>/assets/images/pinta.svg" alt="ピンタレストアイコン" /></a>
+              <a href="<?php echo the_field("pintarest_url", 93); ?>" target="_blank"><img src="<?php echo get_template_directory_uri() ?>/assets/images/pinta.svg" alt="ピンタレストアイコン" /></a>
             </li>
             <li class="global_header__wrapper__sns-icons__list__item">
-              <a href="<?php echo the_field("image", 93); ?>" target="_blank"><img src="<?php echo get_template_directory_uri() ?>/assets/images/cart.svg" alt="カートアイコン" /></a>
+              <a href="<?php echo the_field("cart_url", 93); ?>" target="_blank"><img src="<?php echo get_template_directory_uri() ?>/assets/images/cart.svg" alt="カートアイコン" /></a>
             </li>
             <li class="global_header__wrapper__sns-icons__list__item">
               <a href="<?php echo home_url("/contact"); ?>"><img src="<?php echo get_template_directory_uri() ?>/assets/images/mail.svg" alt="メールアイコン" /></a>
@@ -80,13 +80,13 @@
               <a href="<?php echo the_field("iroha_url", 93); ?>" target="_blank"><img src="<?php echo get_template_directory_uri() ?>/assets/images/iroha-icon.svg" alt="イロハアイコン" /></a>
             </li>
             <li class="global_header__sp-wrapper__menus__sns-icons__list__item">
-              <a href="<?php echo the_field("image", 93); ?>" target="_blank"><img src="<?php echo get_template_directory_uri() ?>/assets/images/instagram.png" alt="インスタアイコン" /></a>
+              <a href="<?php echo the_field("instagram_url", 93); ?>" target="_blank"><img src="<?php echo get_template_directory_uri() ?>/assets/images/instagram.png" alt="インスタアイコン" /></a>
             </li>
             <li class="global_header__sp-wrapper__menus__sns-icons__list__item">
-              <a href="<?php echo the_field("image", 93); ?>" target="_blank"><img src="<?php echo get_template_directory_uri() ?>/assets/images/pinta.svg" alt="ピンタレストアイコン" /></a>
+              <a href="<?php echo the_field("pintarest_url", 93); ?>" target="_blank"><img src="<?php echo get_template_directory_uri() ?>/assets/images/pinta.svg" alt="ピンタレストアイコン" /></a>
             </li>
             <li class="global_header__sp-wrapper__menus__sns-icons__list__item">
-              <a href="<?php echo the_field("image", 93); ?>" target="_blank"><img src="<?php echo get_template_directory_uri() ?>/assets/images/cart.svg" alt="カートアイコン" /></a>
+              <a href="<?php echo the_field("cart_url", 93); ?>" target="_blank"><img src="<?php echo get_template_directory_uri() ?>/assets/images/cart.svg" alt="カートアイコン" /></a>
             </li>
             <li class="global_header__sp-wrapper__menus__sns-icons__list__item">
               <a href="<?php echo home_url("/contact"); ?>"><img src="<?php echo get_template_directory_uri() ?>/assets/images/mail.svg" alt="メールアイコン" /></a>
